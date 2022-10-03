@@ -4,17 +4,34 @@
     box-sizing: border-box;
 }
 .test-one-div {
-    color: red;
+    background-color: rgba(255, 0, 0, 0.3);
+    color:blue;
 }
 .test-two-div {
-    border: 1px red solid;
-}
-.subsection {
+    text-align: right;
+    background-color: rgba(0, 0, 255, 0.2);
     border: 1px red solid;
 }
 .subsection.header {
+    text-align: center;
+    border: 1px red solid;
+}
+.subsection.preview {
+    text-align: left;
     border: 4px blue dashed;
 }
+.ancestor {
+    font-size: 18px;
+    text-align: center;
+}
 .ancestor .child {
+    font-size: 20px;
+    text-align: right;
     border: 2px green solid;
+}
+.images {
+    display: block;
+    border: 2px solid red;
+    height: auto;
+    width: 500px;
 }
