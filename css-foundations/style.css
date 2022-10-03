@@ -1,0 +1,20 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.test-one-div {
+    color: red;
+}
+.test-two-div {
+    border: 1px red solid;
+}
+.subsection {
+    border: 1px red solid;
+}
+.subsection.header {
+    border: 4px blue dashed;
+}
+.ancestor .child {
+    border: 2px green solid;
+}
