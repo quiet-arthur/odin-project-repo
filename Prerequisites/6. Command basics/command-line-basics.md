@@ -1,7 +1,7 @@
 # Command line bassics - Knowledg Check
 
 ## What is the command line?
-    It's a prompt that can be used to move, copy, creat and even delete files/directorys.
+    It's a prompt that can be used to move, copy, creat and even delete files/directories.
 
 ## How do you open the command line on your computer?
     Ctrl + Alt + T
@@ -13,7 +13,7 @@
     It will get you into your home/user directory.
 
 ## Where will cd .. navigate you to?
-    It will get you into the previous derictory you were in.
+    It will get you into the previous directory you were in.
 
 ## How do you display the name of the directory you are currently in?
     Using the command *pwd*
