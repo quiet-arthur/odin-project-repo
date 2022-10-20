@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentals Part 2</title>
+</head>
+<body>
+    <script>
+        console.log(1 / 0); // Infinity
+        console.log( "not a number" / 2); // NaN not a number error
+        console.log ("10" * 2); 
+        
+        let name = "Jhon";
+        console.log(`Hello, ${name}`);
+
+        let userName;
+        console.log(userName); // Undefined
+
+        const string = "The revolution will not be televised!";
+        console.log(string);
+
+        const one = "Hello, ";
+        const two = "how are you?";
+        console.log(`${one}${two}`);
+
+        const greeting = "Hello";
+        const visitor = "Chris";
+        console.log(greeting + ", " + visitor);
+
+        const myString = "123";
+        const myNum = Number(myString);
+        console.log(typeof myNum);
+
+        const myNum2 = 123;
+        const myString2 = myNum2.toString();
+        console.log(typeof myString2);
+
+        const song = "Fight for the Youth";
+        const score = 9;
+        const highestScore = 10;
+        const output = (`I like the song ${song}. I gave it a score of ${(score / highestScore) * 100}%.`);
+        console.log(output);
+
+        //String Methods and Proprieties
+        let txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        let length = txt.length;
+        console.log(`The alphabet has ${length} letters!`);
+
+        let str = "Apple, Banana, Kiwi";
+        let part = str.slice(7, 13);
+        console.log(part);
+
+        let text = "You should visit Microsoft!";
+        let replace = text.replace("Microsoft", "W3Schools");
+        console.log(replace);
+
+        // Trim method
+        let leftSpace = "     Hello!";
+        let noWhiteSpace = leftSpace.trim();
+        console.log(leftSpace);
+        console.log(noWhiteSpace);
+
+        // charAt method 
+        let word = "HELLO";
+        let char = word.charAt(2);
+        console.log(char);
+
+        // Property Access
+        let strings = ["Apple", "Banana", "Kiwi"];
+        let access = strings[2];
+        console.log(access);
+    </script>
+</body>
+</html>
