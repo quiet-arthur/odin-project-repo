@@ -20,6 +20,31 @@
         if (age <= 14 || age >= 90) {
             console.log("Truly");
         }
+
+        let userName = prompt("Who is there?");
+        let password = null
+
+        if (userName === "Admin") {
+            password = prompt("Password: ");
+
+            if (password === "TheMaster") {
+                alert("Welcome, Master!");
+            }
+            else if (password === null || password === "") {
+                alert("Canceled!");
+            }
+            else {
+                alert("Wrong password!");
+            }
+        }
+        else if (userName === null || userName === "") {
+            alert("Canceled!");
+        }
+        else {
+            alert("I don't know you!");
+        }
+
+  
     </script>
 </body>
 </html>
