@@ -12,6 +12,23 @@
             return n + 7
         };
         console.log(add7(3));
+
+        function mutiply(a, b) {
+            return a * b 
+        };
+        console.log(mutiply(2, 4));
+
+        function capitalize(str) {
+            let capitalizeLetter = str.charAt(0).toUpperCase() + str.slice(1)
+            return capitalizeLetter
+        }
+        console.log(capitalize("arthur"))
+
+        function lastLetter(str){
+            let getLength = str.length - 1
+            return str.charAt(getLength);
+        }
+        console.log(lastLetter("abcdefg"))
     </script>
 </body>
 </html>
