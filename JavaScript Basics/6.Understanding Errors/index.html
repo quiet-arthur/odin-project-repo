@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding Errors</title>
+</head>
+<body>
+    <script>
+        console.table(["Ford", "Volvo", "Fiat"]);
+
+        const car1 = {name:"Audi", model:"A4"};
+        const car2 = {name:"Ford", model:"XS90"};
+        const car3 = {name:"Volvo", model:"Fusion"};
+        console.table([car1, car2, car3]);
+
+        function myFunction(){
+            myOtherFunction();
+        }
+        function myOtherFunction(){
+            console.trace();
+        }
+
+    </script>
+</body>
+</html>
